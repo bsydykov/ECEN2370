@@ -1,0 +1,2 @@
+../Core/Src/RNG.c:15:6:RNG_Init	2
+../Core/Src/RNG.c:27:10:RNG_GetRandomNumber	2
