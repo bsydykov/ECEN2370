@@ -37,9 +37,12 @@ Struggles and Obstacles?
 One of the biggest challenges was configuring TIM7 for accurate time tracking. Initially, the timer was not incrementing the elapsed time correctly due to misconfigurations in the interrupt handler. Debugging this required adding print statements and experimenting with timer settings until it worked as expected.
 Another issue was aligning tetromino data structures with the drawing functions. The initial implementation caused pointer type mismatches, resulting in rendering errors. This was resolved by refining the data structure and ensuring compatibility between function arguments and array types.
 Finally, balancing real-time game updates with smooth LCD rendering required careful performance testing and optimizations. Rapid button inputs occasionally caused glitches, which I addressed by adding debouncing logic in the button driver.
-What I Learned
+
+What I Learned?
 This project taught me the importance of modular design and the value of debugging tools like print statements and LEDs in embedded systems. I gained hands-on experience configuring hardware timers, managing interrupts, and integrating multiple peripherals. I also learned how to approach performance optimization in resource-constrained environments.
+
 What I Would Do Differently?
 If I were to restart this project, I would allocate more time to planning the initial architecture. A more detailed understanding of the LCD and timer functionalities upfront could have saved significant debugging time. Additionally, I would implement automated testing for critical modules to catch edge cases earlier in development.
+
 How the Project Could Be Improved?
 To improve this project further, I could add features like a scoring system and increasing difficulty levels to make the game more engaging. Incorporating sound effects and animations for row clearing would improve the user experience. Saving high scores in non-volatile memory and adding a pause/resume feature would also add value.
