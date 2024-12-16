@@ -1,6 +1,5 @@
 # ECEN2370  FINAL PROJECT
-Project Documentation
-Overview
+
 This project implements the classic Tetris game on the STM32F429I-Discovery microcontroller. It leverages the board's peripherals, including the LCD screen, hardware buttons, and a hardware random number generator (RNG). The game is structured into several modules, each handling a specific aspect of the game, ensuring clarity and modularity.
 
 This project was all about bringing the timeless Tetris game to life on the STM32F429I-Discovery board. I wanted to make a playable and engaging version of Tetris while taking full advantage of the board's capabilities, like the built-in LCD screen, hardware buttons, and the TIM7 timer. The project combined a lot of moving parts—both literally and figuratively—from designing smooth tetromino movements and rotations to implementing a timer that accurately tracks gameplay and displays it at the end. Along the way, I focused on creating an experience that feels like classic Tetris, complete with row-clearing mechanics and a polished game-over screen.
