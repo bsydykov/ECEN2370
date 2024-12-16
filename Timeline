@@ -1,0 +1,21 @@
+## Timeline
+
+### Week 1
+- Defined project goals and outlined deliverables.
+- Set up the development environment with STM32CubeIDE and the necessary libraries.
+
+### Week 2
+- Designed the game grid and implemented basic tetromino shapes.
+- Configured TIM7 to generate precise millisecond interrupts for real-time updates.
+
+### Week 3
+- Built a demo screen to display tetromino shapes and test rendering on the LCD.
+- Integrated player controls for moving and rotating tetrominoes using physical buttons.
+- Added logic for detecting completed rows, clearing them, and updating the score.
+
+### Week 4
+- Added the end-game screen to display the total elapsed time.
+- Conducted extensive debugging to address edge cases, such as rapid button presses or grid overflows.
+- Optimized the UI for better visuals and added comprehensive code documentation.
+
+
